@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     './base',
   ],
 
-  // ssr: false,
+  ssr: false,
   icon: {
     customCollections: [
       {
@@ -16,13 +16,6 @@ export default defineNuxtConfig({
         dir: './icons/custom1',
       },
     ],
-    serverBundle: 'remote',
-    clientBundle: {
-      icons: [
-        'logos:vitejs',
-        'ph:acorn-bold',
-      ],
-    },
   },
 
   nitro: {
